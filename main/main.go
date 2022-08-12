@@ -12,4 +12,5 @@ func main() {
 	cache.DoExpensiveFibo()
 	design_patterns.DoFactory()
 	design_patterns.DoSingleton()
+	design_patterns.DoAdapter()
 }
