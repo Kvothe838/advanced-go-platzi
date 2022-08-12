@@ -1,4 +1,4 @@
-package main
+package sync
 
 import (
 	"fmt"
@@ -24,7 +24,7 @@ func Balance(lock *sync.RWMutex) int {
 	return b
 }
 
-func main() {
+func DoSync() {
 	var wg sync.WaitGroup
 	var lock sync.RWMutex
 
