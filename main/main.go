@@ -8,4 +8,5 @@ import (
 func main() {
 	sync.DoSync()
 	cache.DoCache()
+	cache.DoExpensiveFibo()
 }
