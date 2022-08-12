@@ -14,4 +14,5 @@ func main() {
 	design_patterns.DoSingleton()
 	design_patterns.DoAdapter()
 	design_patterns.DoObserver()
+	design_patterns.DoStrategy()
 }
