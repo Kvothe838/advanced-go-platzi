@@ -13,4 +13,5 @@ func main() {
 	design_patterns.DoFactory()
 	design_patterns.DoSingleton()
 	design_patterns.DoAdapter()
+	design_patterns.DoObserver()
 }
